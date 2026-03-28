@@ -23,10 +23,6 @@ To provide the Analytics Enablement team with a scalable framework to:
 * *Actionable KPIs:* Real-time tracking of *ARPU (Average Revenue Per User)* and *At-Risk Equity*.
 * *Cohort Analysis:* Tracking month-over-month retention for 4,300+ unique customers.
 
-## 📁 Repository Contents
-* notebooks/: Contains the Python logic for data cleaning and RFM scoring.
-* dashboard/: Contains the .pbix file and visual assets.
-* data/: Documentation on data schema and source links.
 
 
 ## 👤 Author
