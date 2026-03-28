@@ -1,49 +1,33 @@
-# Retail Inventory Optimization & Revenue Intelligence System
+# Strategic Retail Analytics: Customer Lifecycle & Revenue Equity Intelligence
+
+
 
 ## 📌 Project Overview
-In a retail catalog of 1,850+ SKUs, inventory capital is often trapped in slow-moving items while high-demand "Star Products" face stock-out risks. This project provides an end-to-end analytical solution to prioritize inventory based on *Revenue Concentration (80/20 Rule)* and *Demand Volatility*.
+This repository contains a full-stack data analytics solution designed to support *Business Decision Support* in the CPG/Retail sector. By converting 1M+ raw transactions into a high-fidelity *RFM (Recency, Frequency, Monetary) Model*, this project identifies key shopper behaviors and quantifies "Revenue at Risk."
 
-### 🛠️ Tech Stack
-* *Database:* SQL Server (Data Modeling & Statistical Buffer Calculations)
-* *Visualization:* Power BI (DAX, Power Query, Executive Dashboarding)
-* *Theory:* Pareto Principle (80/20), Safety Stock Modeling, CPG/Retail Inventory Logic
+### 🎯 Business Objective
+To provide the Analytics Enablement team with a scalable framework to:
+1. *Segment* a diverse shopper base into actionable behavioral tiers.
+2. *Visualize* customer retention decay via Cohort Analysis.
+3. *Identify* high-value customers (Champions) and churn-risk segments.
 
----
+## 🛠️ Tech Stack
+* *Analysis:* Python (Pandas, NumPy, Datetime)
+* *Visualization:* Power BI (DAX, Interactive Reporting)
+* *Modeling:* Statistical Quintile-based RFM Segmentation
+* *Data Source:* Online Retail II (UCI Machine Learning Repository)
 
 ## 🚀 Key Features
+* *End-to-End Pipeline:* Automated data cleaning and feature engineering in Python.
+* *Behavioral Segmentation:* Custom DAX logic to categorize shoppers into 6 distinct segments.
+* *Actionable KPIs:* Real-time tracking of *ARPU (Average Revenue Per User)* and *At-Risk Equity*.
+* *Cohort Analysis:* Tracking month-over-month retention for 4,300+ unique customers.
 
-### 1. Statistical Safety Stock Modeling (SQL)
-Engineered a dynamic buffer formula to mitigate stock-out risks by calculating demand variance:
-* *Logic:* Safety Stock = (Max_Daily_Sales * Max_Lead_Time) - (Avg_Daily_Sales * Avg_Lead_Time)
-* *Impact:* Automated "Reorder Alerts" for high-velocity items.
+## 📁 Repository Contents
+* notebooks/: Contains the Python logic for data cleaning and RFM scoring.
+* dashboard/: Contains the .pbix file and visual assets.
+* data/: Documentation on data schema and source links.
 
-### 2. Pareto (80/20) Revenue Analysis
-Developed a DAX-driven cumulative revenue curve to segment the product catalog:
-* *Finding:* Identified that the Top 20 SKUs (1% of catalog) drive *16.9% of total revenue*.
-* *DAX used:* TOPN, SUMX, and CALCULATE for context transition.
-
-### 3. Executive Dashboard
-A high-fidelity Power BI report featuring:
-* *Dual-Axis Pareto Chart:* Visualizing revenue concentration vs. product count.
-* *Inventory Risk Matrix:* A color-coded heatmap of "Star Products" below safety levels.
-* *Strategic KPIs:* Total Revenue, Top 20 SKU Share, and Global Safety Buffer targets.
-
----
-
-## 📂 Project Structure
-* sql_queries/: Scripts for data aggregation and safety stock logic.
-* power_bi/: The .pbix file and dashboard screenshots.
-* data/: Sample dataset (Orders).
-
----
-
-## 📈 Business Interpretation
-By integrating SQL-based math with Power BI visuals, this system allows Supply Chain Managers to:
-1.  Prioritize 99% serviceability for the Top 20 "Star Products."
-2.  Optimize working capital by reducing overstock in the "Long-Tail" (remaining 98% of SKUs).
-3.  Transition from reactive to proactive reordering based on mathematical risk.
-
----
 
 ## 👤 Author
 *Debmalya Roy* M.Sc. Mathematics | Aspiring Data Analyst [www.linkedin.com/in/debmalyaroydata] | [https://github.com/Debmalya21]
