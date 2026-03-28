@@ -21,7 +21,7 @@ To provide the Analytics Enablement team with a scalable framework to:
 * *End-to-End Pipeline:* Automated data cleaning and feature engineering in Python.
 * *Behavioral Segmentation:* Custom DAX logic to categorize shoppers into 6 distinct segments.
 * *Actionable KPIs:* Real-time tracking of *ARPU (Average Revenue Per User)* and *At-Risk Equity*.
-* *Cohort Analysis:* Tracking month-over-month retention for 4,300+ unique customers.
+* *Cohort Analysis:* Tracking month-over-month retention for 5,000+ unique customers.
 
 
 
