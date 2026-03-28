@@ -30,13 +30,6 @@ A high-fidelity Power BI report featuring:
 
 ---
 
-## 📂 Project Structure
-* sql_queries/: Scripts for data aggregation and safety stock logic.
-* power_bi/: The .pbix file and dashboard screenshots.
-* data/: Sample dataset (Orders).
-
----
-
 ## 📈 Business Interpretation
 By integrating SQL-based math with Power BI visuals, this system allows Supply Chain Managers to:
 1.  Prioritize 99% serviceability for the Top 20 "Star Products."
